@@ -424,5 +424,5 @@ Responsive styles
     background-color: #9e4140!important;
 }
 .about .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
-    border: 2px solid #34C8B2;
+    border: 2px solid #34C8B2!important;
 }

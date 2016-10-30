@@ -3,18 +3,27 @@
 /* ========================================================================== 
     General 
 ========================================================================== */
+
+@font-face {
+    src: url("../fonts/aassuannr.ttf");
+    font-family: aassuannr; /* Имя шрифта */
+}
+
 h1,h2,h3,h4,h5,h6,.navbar {
     /*font-family:'Oswald';*/
-    font-family: 'News Cycle', sans-serif;
+    font-family: aassuannr, sans-serif;
     /*font-weight:100;*/
     font-weight: 400;
 }
 
 body {
     padding-top: 70px;
+    font-family:aassuannr ;
 }
  a:active, a:hover, a:focus{
     outline: none;
+     color:#9e4140;
+     text-decoration: none;
 }
 
 a {
@@ -29,10 +38,7 @@ a {
     color: #2e6633;
 }
 
-a:hover {
-    color:#9e4140;
-    text-decoration: none;
-}
+
 .btn-o {
     border:1px solid #34c8b2;
     /*border-radius*/
@@ -247,7 +253,7 @@ Recent works
     padding: 40px 0px;
     text-align: center;
     font-size: 62px;
-    font-family: 'News Cycle', sans-serif;
+    font-family: aassuannr, sans-serif;
     word-spacing: 17px;
     letter-spacing: 4px;
     font-weight: 400;
@@ -401,9 +407,11 @@ Responsive styles
 }
 .about ul li a{
     background: white;
+    font-size: 19px;
 }
 .tab-content{
     margin: 20px 0 ;
+    font-size: 16px;
 }
 
 .about-row{
@@ -411,4 +419,10 @@ Responsive styles
     border: 3px solid #34C8B2;
     padding: 25px;
     border-radius: 15px;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus{
+    background-color: #9e4140!important;
+}
+.about .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+    border: 2px solid #34C8B2;
 }

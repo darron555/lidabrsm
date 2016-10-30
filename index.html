@@ -21,6 +21,7 @@
         <link href='http://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
 
+
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
 
@@ -30,7 +31,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <div id="top" class="navbar navbar-dark navbar-fixed-top" role="navigation">
+      <!--  <div id="top" class="navbar navbar-dark navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -47,8 +48,72 @@
                         <li><a href="#blog">Фотогалерея</a></li>
                         <li><a href="#social">Контакты</a></li>
                     </ul>
-                </div><!--/.navbar-collapse -->
+                </div>&lt;!&ndash;/.navbar-collapse &ndash;&gt;
             </div>
+        </div>-->
+
+        <div id="top" class="navbar navbar-dark navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/"><img src="img/logo.PNG" alt="brsm"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <!--<ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">Link</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>-->
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Проекты</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Конкурсы</a></li>
+                        <li><a href="#">Трудоустройство</a></li>
+                        <li><a href="#">МООП</a></li>
+                        <li><a href="#">ЗОЖ</a></li>
+                        <li><a href="#">«Доброе сердце»</a></li>
+                        <li><a href="#">В союз с друзьями</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
         </div>
 
 
@@ -87,67 +152,95 @@
 
         <div  class="content-block content-block-cyan">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12 ">
-                        <h1 class="hc">Лидский районный комитет ОО "БРСМ"</h1>
-                        <h4 class="hc">
-                            Деятельность общественного объединения направлена на поддержку молодежной инициативы и создание условий для самореализации молодежи.
-
-                            Разработать идею, организовать событие, провести мероприятие, объединить молодежь, помочь нуждающимся, осветить свою деятельность, быть там, где нужны, стать нужными везде. Это наша жизнь, и мы хотим, чтобы вы стали её частью и были вместе с нами.
-                        и бла-бла-бла, что хотим тут и напишем
-                        </h4>
-                    </div>
-                    <p style="text-align: center;color: red;padding: 5px 10px"> и такую фишку можно добавить</p>
+                <div class="row about-row">
+                    <h1 class="text-center">О нас</h1>
                     <div class="col-md-12">
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary btn-lg center-block" data-toggle="modal" data-target="#myModal">
-                           Хочу вступить в студотряд
-                        </button>
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                        <h4 class="modal-title" id="myModalLabel">Форма заявки в студотряд</h4>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h3 style="color: black">Заполните заявку для регистрации</h3>
-                                        <form>
+                        <div class="about">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">О нас</a></li>
+                                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Устав</a></li>
+                                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Символика</a></li>
+                                <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Скидки</a></li>
+                                <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Лица</a></li>
+                                <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Партнеры</a></li>
+                                <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">СМИ</a></li>
+                            </ul>
 
-                                            <form>
-                                                <div class="form-group">
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane  active" id="about">
+                                    Общественное объединение «Белорусский республиканский союз молодежи» является правопреемником комсомола Беларуси, Союза молодежи Беларуси, Белорусского патриотического союза молодежи, Белорусского союза молодежи. Решение о его создании было принято 6 сентября 2002 г. на объединительном съезде. Членом ОО «БРСМ» может быть любой гражданин Республики Беларусь, лицо без гражданства, а также иностранные граждане, постоянно поживающие в Республике Беларусь, в возрасте от 14 до 31 года, признающие Устав и программные документы ОО «БРСМ».
 
-                                                <label for="exampleInputName">Ваше имя</label>
-                                                <input type="text" class="form-control" id="exampleInputName" placeholder="Александр" required>
+                                    Целью ОО «БРСМ» является создание условий для всестороннего развития молодежи, раскрытия ее творческого потенциала, содействие развитию в Республике Беларусь гражданского общества, основанного на патриотических и духовно-нравственных ценностях. Белорусский республиканский союз молодежи объединяет в своих рядах небезразличных людей, тех, кто не собирается сидеть, сложа руки, а сам готов приложить свои силы, использовать свои способности для того, чтобы сделать интереснее, ярче, осмысленнее свою жизнь и жизнь своих сверстников.
+
+                                    У каждого из нас есть идеи, замыслы, творческие планы. Реализовать их можно со своими единомышленниками. Каждый молодой человек должен иметь возможность быть услышанным, обсудить вопросы, которые его волнуют, с другими заинтересованными людьми (сверстниками, представителями старшего поколения, экспертами, представителями власти), узнать , что он может сделать для решения существующих проблем, а также получить поддержку своих дальнейших действий. БРСМ по настоящему единый молодежный союз. Работая в нем, мы выступаем не только как жители своего города, учащиеся своей школы, но и как представители белорусской молодежи. Мы ощущаем себя частью нашей Родины, частью Республики Беларусь.
+                                   </div>
+
+                                <div role="tabpanel" class="tab-pane fade" id="profile">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary btn-lg center-block" data-toggle="modal" data-target="#myModal">
+                                        Хочу вступить в студотряд
+                                    </button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                    <h4 class="modal-title" id="myModalLabel">Форма заявки в студотряд</h4>
                                                 </div>
-                                                <div class="form-group">
-                                                    <label for="exampleInputSur">Ваша фамилия</label>
-                                                    <input type="text" class="form-control" id="exampleInputSur" placeholder="Щигло" required>
+                                                <div class="modal-body">
+                                                    <h3 style="color: black">Заполните заявку для регистрации</h3>
+                                                    <form>
+
+                                                        <form>
+                                                            <div class="form-group">
+
+                                                                <label for="exampleInputName">Ваше имя</label>
+                                                                <input type="text" class="form-control" id="exampleInputName" placeholder="Александр" required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="exampleInputSur">Ваша фамилия</label>
+                                                                <input type="text" class="form-control" id="exampleInputSur" placeholder="Щигло" required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="exampleInputTel">Телефон</label>
+                                                                <input type="tel" class="form-control" id="exampleInputTel" placeholder="80333421997" required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="exampleInputPass">Паспортные данные</label>
+                                                                <input type="text" class="form-control" id="exampleInputPass" required placeholder="кн 1234567, выдан 15.02.1999 Лидским РОВД">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="exampleInputSmth">Что-нибудь еще</label>
+                                                                <input type="text" class="form-control" id="exampleInputSmth" required placeholder="Еще какая-нибудь ерунда">
+                                                            </div>
+                                                            <button type="submit" class="btn btn-success">Отправить</button>
+                                                        </form>
+                                                    </form>
                                                 </div>
-                                                <div class="form-group">
-                                                    <label for="exampleInputTel">Телефон</label>
-                                                    <input type="tel" class="form-control" id="exampleInputTel" placeholder="80333421997" required>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
                                                 </div>
-                                                <div class="form-group">
-                                                    <label for="exampleInputPass">Паспортные данные</label>
-                                                    <input type="text" class="form-control" id="exampleInputPass" required placeholder="кн 1234567, выдан 15.02.1999 Лидским РОВД">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="exampleInputSmth">Что-нибудь еще</label>
-                                                    <input type="text" class="form-control" id="exampleInputSmth" required placeholder="Еще какая-нибудь ерунда">
-                                                </div>
-                                                <button type="submit" class="btn btn-success">Отправить</button>
-                                            </form>
-                                        </form>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
-                                    </div>
+                                </div>
+
+                                <div role="tabpanel" class="tab-pane fade" id="messages">
+                                    ...
+                                </div>
+
+                                <div role="tabpanel" class="tab-pane fade" id="settings">
+                                    ...
                                 </div>
                             </div>
                         </div>
+
+
+
                     </div>
                 </div>
             </div>
@@ -206,7 +299,7 @@
                     <div class="row">
                         <div class="col-sm-4 blog-post">
                             <img src="img/news1.jpg" alt="Design Your Mind">
-                            <a href="#"><h2>Какая-то встреча с кем-то</h2></a>
+                            <a href="#"><h2>Какая-то встреча с кем-то </h2></a>
                             <div class="date">22 окт, 2016</div>
                         </div>
                         <div class="col-sm-4 blog-post">
@@ -225,14 +318,20 @@
         </div><!-- /.content-block content-blog-gray -->
 
 
+        <div class="container-fluid">
+            <div class="row">
+
+            </div>
+        </div>
+
+
+
         <div id="social" class="content-block">
             <div class="container text-center">
+                <div class="hexagon"><a href="#"><i class="fa fa-vk"></i></a></div>
                 <div class="hexagon"><a href="#"><i class="fa fa-facebook"></i></a></div>
                 <div class="hexagon"><a href="#"><i class="fa fa-twitter"></i></a></div>
-                <div class="hexagon"><a href="#"><i class="fa fa-google-plus"></i></a></div>
                 <div class="hexagon"><a href="#"><i class="fa fa-instagram"></i></a></div>
-                <div class="hexagon"><a href="#"><i class="fa fa-pinterest"></i></a></div>
-                <div class="hexagon"><a href="#"><i class="fa fa-envelope"></i></a></div>
             </div>
         </div>
 
@@ -243,12 +342,12 @@
 
         <script src="js/jquery-2.1.3.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-
         <script src="js/vendor/bootstrap.min.js"></script>
         <!-- Include js plugin -->
         <script src="owl-carousel/owl.carousel.js"></script>
 
         <script src="js/main.js"></script>
+
 
     </body>
 </html>

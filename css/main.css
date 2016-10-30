@@ -26,11 +26,11 @@ a {
 }
 
 a {
-    color:#34c8b2;
+    color: #2e6633;
 }
 
 a:hover {
-    color:#ec343c;
+    color:#9e4140;
     text-decoration: none;
 }
 .btn-o {
@@ -99,15 +99,15 @@ img {
 }
 
 .hexagon:hover {
-    background:#ec343c;
+    background:#9e4140;
 }
 
 .hexagon:hover:before {
-    border-bottom-color:#ec343c;
+    border-bottom-color:#9e4140;
 }
 
 .hexagon:hover:after {
-    border-top-color: #ec343c;
+    border-top-color: #9e4140;
 }
 
 
@@ -115,7 +115,7 @@ img {
 Navigation 
 ========================================================================== */
 .navbar-dark {
-    background: #9e4140;
+    background:  #ec343c;
     z-index: 99999;
 }
 
@@ -125,8 +125,8 @@ Navigation
 }
 
 .navbar-brand {
-    height:70px;
-    padding:25px 15px;
+    height:69px;
+    padding:5px 15px!important;
 }
 
 .navbar-nav>li>a {
@@ -140,12 +140,12 @@ Navigation
 }
 
 .navbar-brand:hover {
-    color:#ec343c;
+    color: #9e3d2c;
     text-decoration:none;
 }
 
 .nav>li>a:hover,.nav>li>a:focus {
-    background-color:#ec343c;
+    background-color:#9e4140;
     color: white;
 }
 
@@ -214,7 +214,7 @@ Caurosel
 .item img{
     width: 2560px;
     height: auto;
-}
+    }
 
 /* ========================================================================== 
 content-block 
@@ -225,8 +225,9 @@ content-block
 }
 
 .content-block-cyan {
-    background:#34c8b2;
-    color:#ECF0F1;
+    background: #34C8B2;
+    color: #000000;
+
 }
 
 .content-block-cyan h1 {
@@ -389,4 +390,25 @@ Responsive styles
         padding-bottom: 70px;
     }
 
+}
+.about{
+    display: block;
+    text-align: center;
+}
+
+.about .tab-pane{
+    background: rgba(236, 240, 241, 1);
+}
+.about ul li a{
+    background: white;
+}
+.tab-content{
+    margin: 20px 0 ;
+}
+
+.about-row{
+    background: rgba(236, 240, 241, 1);
+    border: 3px solid #34C8B2;
+    padding: 25px;
+    border-radius: 15px;
 }

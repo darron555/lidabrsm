@@ -1,73 +1,37 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Лидский БРСМ</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <!-- Important Owl stylesheet -->
         <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
-         
-        <!-- Default Theme -->
+                 <!-- Default Theme -->
         <link rel="stylesheet" href="owl-carousel/owl.theme.css">
         <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
-
-
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
 
-
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-      <!--  <div id="top" class="navbar navbar-dark navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <i class="fa fa-bars fa-2x"></i>
-                    </button>
-                    <a class="navbar-brand" href="#">Лидская РО <strong>ОО "БРСМ"</strong></a>
-                </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#carousel-header">Главная</a></li>
-                        <li><a href="#about">Проекты</a></li>
-                        <li><a href="#news">Новости</a></li>
-                        <li><a href="#blog">Фотогалерея</a></li>
-                        <li><a href="#social">Контакты</a></li>
-                    </ul>
-                </div>&lt;!&ndash;/.navbar-collapse &ndash;&gt;
-            </div>
-        </div>-->
 
         <div id="top" class="navbar navbar-dark navbar-fixed-top" role="navigation">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+                    <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="true">
                         <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+                        <i class="fa fa-bars fa-2x"></i>
                     </button>
                     <a class="navbar-brand" href="/"><img src="img/logo.PNG" alt="brsm"></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
+                <div class="collapse navbar-collapse">
                     <form class="navbar-form navbar-right">
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Поиск">
@@ -75,27 +39,15 @@
                         <button type="submit" class="btn btn-default">Искать</button>
                     </form>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">О нас</a></li>
-                        <li><a href="#">Проекты</a></li>
-                        <li><a href="#">Акции</a></li>
-                        <li><a href="#">Конкурсы</a></li>
+                        <li><a href="#carousel-header">Главная</a></li>
+                        <li><a href="#aboutus">О нас</a></li>
+                        <li><a href="#project">Проекты</a></li>
                         <li><a href="#">Трудоустройство</a></li>
                         <li><a href="#">МООП</a></li>
                         <li><a href="#">ЗОЖ</a></li>
                         <li><a href="#">«Доброе сердце»</a></li>
                         <li><a href="#">В союз с друзьями</a></li>
                         <li><a href="#">Контакты</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Надо подумать<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Ссылка</a></li>
-                                <li><a href="#">Ссылка</a></li>
-                                <li><a href="#">Ссылка</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Ссылка</a></li>
-                            </ul>
-                        </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -136,7 +88,7 @@
 
 
         <div  class="content-block content-block-cyan">
-            <div class="container">
+            <div class="container" id="aboutus">
                 <div class="row about-row">
                     <h1 class="text-center">О нас</h1>
                     <div class="col-md-12">
@@ -244,30 +196,30 @@
         <div id="news" class="content-block content-block-gray">
             <div class="container">
                 <header class="block-heading cleafix">
-                    <a href="#" class="btn btn-o btn-lg pull-right">Смотреть все</a>
+                    <a href="news.html" class="btn btn-o btn-lg pull-right">Смотреть все</a>
                     <h1>Новости о нас</h1>
                     <p>Последние новости</p>
                 </header>
                 <section class="block-body">
                     <div class="row">
                         <div class="col-sm-3 blog-post">
-                            <img src="img/news1.jpg" alt="Design Your Mind">
-                            <a href="#"><h2>Какая-то встреча с кем-то </h2></a>
+                            <a href="news.html"><img src="img/news1.jpg" alt="Design Your Mind"></a>
+                            <a href="news.html"><h2>Какая-то встреча с кем-то </h2></a>
                             <div class="date">22 окт, 2016</div>
                         </div>
                         <div class="col-sm-3 blog-post">
-                            <img src="img/news1.jpg" alt="Winter Is Comming">
-                            <a href="#"><h2>что-то еще произошло</h2></a>
+                            <a href="news.html"><img src="img/news1.jpg" alt="Winter Is Comming"></a>
+                            <a href="news.html"><h2>что-то еще произошло</h2></a>
                             <div class="date">22 окт, 2016</div>
                         </div>
                         <div class="col-sm-3 blog-post">
-                            <img src="img/news1.jpg" alt="The Illustration">
-                            <a href="#"><h2>Наградили кого-то</h2></a>
+                            <a href="news.html"><img src="img/news1.jpg" alt="The Illustration"></a>
+                            <a href="news.html"><h2>Наградили кого-то</h2></a>
                             <div class="date">22 окт, 2016</div>
                         </div>
                         <div class="col-sm-3 blog-post">
-                            <img src="img/news1.jpg" alt="The Illustration">
-                            <a href="#"><h2>Наградили кого-то</h2></a>
+                            <a href="news.html"><img src="img/news1.jpg" alt="The Illustration"></a>
+                            <a href="news.html"><h2>Наградили кого-то</h2></a>
                             <div class="date">22 окт, 2016</div>
                         </div>
                     </div>
@@ -276,53 +228,199 @@
         </div><!-- /.content-block content-blog-gray -->
 
 
-        <div id="about"  class="recent-projects">
-            <div class="recent-projects-title">
-                Наши проекты
-            </div>
+        <!--<div id="project2"  class="recent-projects">-->
+            <!--<div class="recent-projects-title">-->
+                <!--Наши проекты-->
+            <!--</div>-->
 
-            <div class="recent-projects-content content-block-gray">
-                <div id="owl-example" class="owl-carousel">
-                    <div>
-                        <img src="img/dialog.jpg" alt="">
-                        <a href="#">Подробнее...</a>
+            <!--<div class="recent-projects-content content-block-gray">-->
+                <!--<div id="owl-example" class="owl-carousel">-->
+                    <!--<div>-->
+                        <!--<img src="img/dialog.jpg" alt="">-->
+                        <!--<a href="#">Подробнее...</a>-->
+                    <!--</div>-->
+                    <!--<div>-->
+                        <!--<img src="img/kind_heart.jpg" alt="">-->
+                        <!--<a href="#">Подробнее...</a>-->
+                    <!--</div>-->
+                    <!--<div>-->
+                        <!--<img src="img/100id.jpg" alt="">-->
+                        <!--<a href="#">Подробнее...</a>-->
+                    <!--</div>-->
+                    <!--<div>-->
+                        <!--<img src="img/dialog.jpg" alt="">-->
+                        <!--<a href="#">Подробнее...</a>-->
+                    <!--</div>-->
+                    <!--<div>-->
+                        <!--<img src="img/kind_heart.jpg" alt="">-->
+                        <!--<a href="#">Подробнее...</a>-->
+                    <!--</div>-->
+                    <!--<div>-->
+                        <!--<img src="img/100id.jpg" alt="">-->
+                        <!--<a href="#">Подробнее...</a>-->
+                    <!--</div>-->
+                    <!--<div>-->
+                        <!--<img src="img/kind_heart.jpg" alt="">-->
+                        <!--<a href="#">Подробнее...</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>&lt;!&ndash; /.recent-projects &ndash;&gt;-->
+
+
+
+
+
+
+
+
+
+        <div class="proj container-fluid ">
+
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" class="accord" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                               Наши проекты
+                            </a>
+                        </h4>
                     </div>
-                    <div>
-                        <img src="img/kind_heart.jpg" alt="">
-                        <a href="#">Подробнее...</a>
-                    </div>
-                    <div>
-                        <img src="img/100id.jpg" alt="">
-                        <a href="#">Подробнее...</a>
-                    </div>
-                    <div>
-                        <img src="img/dialog.jpg" alt="">
-                        <a href="#">Подробнее...</a>
-                    </div>
-                    <div>
-                        <img src="img/kind_heart.jpg" alt="">
-                        <a href="#">Подробнее...</a>
-                    </div>
-                    <div>
-                        <img src="img/100id.jpg" alt="">
-                        <a href="#">Подробнее...</a>
-                    </div>
-                    <div>
-                        <img src="img/kind_heart.jpg" alt="">
-                        <a href="#">Подробнее...</a>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <div id="project"  class="recent-projects">
+                                <div class="recent-projects-content content-block-gray">
+                                    <div id="owl-example" class="owl-carousel">
+                                        <div>
+                                            <img src="img/dialog.jpg" alt="">
+                                            <a href="#">Подробнее...</a>
+                                        </div>
+                                        <div>
+                                            <img src="img/kind_heart.jpg" alt="">
+                                            <a href="#">Подробнее...</a>
+                                        </div>
+                                        <div>
+                                            <img src="img/100id.jpg" alt="">
+                                            <a href="#">Подробнее...</a>
+                                        </div>
+                                        <div>
+                                            <img src="img/dialog.jpg" alt="">
+                                            <a href="#">Подробнее...</a>
+                                        </div>
+                                        <div>
+                                            <img src="img/kind_heart.jpg" alt="">
+                                            <a href="#">Подробнее...</a>
+                                        </div>
+                                        <div>
+                                            <img src="img/100id.jpg" alt="">
+                                            <a href="#">Подробнее...</a>
+                                        </div>
+                                        <div>
+                                            <img src="img/kind_heart.jpg" alt="">
+                                            <a href="#">Подробнее...</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- /.recent-projects -->
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div><!-- /.recent-projects -->
 
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed accord" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Акции
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            <div id="akcii"  class="recent-projects">
+                                <div class="recent-projects-content content-block-gray">
+                                    <div id="owl-example2" class="owl-carousel">
+                                        <div>
+                                            <img src="img/dialog.jpg" alt="">
+                                            <a href="#">Подробнее...</a>
+                                        </div>
+                                        <div>
+                                            <img src="img/kind_heart.jpg" alt="">
+                                            <a href="#">Подробнее...</a>
+                                        </div>
+                                        <div>
+                                            <img src="img/100id.jpg" alt="">
+                                            <a href="#">Подробнее...</a>
+                                        </div>
+                                        <div>
+                                            <img src="img/dialog.jpg" alt="">
+                                            <a href="#">Подробнее...</a>
+                                        </div>
+                                        <div>
+                                            <img src="img/kind_heart.jpg" alt="">
+                                            <a href="#">Подробнее...</a>
+                                        </div>
+                                        <div>
+                                            <img src="img/100id.jpg" alt="">
+                                            <a href="#">Подробнее...</a>
+                                        </div>
+                                        <div>
+                                            <img src="img/kind_heart.jpg" alt="">
+                                            <a href="#">Подробнее...</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- /.recent-projects -->
+                        </div>
+                    </div>
+                </div>
 
-
-
-
-
-        <div class="container-fluid">
-            <div class="row">
-
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed accord" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Конкурсы
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            <div id="konkurs"  class="recent-projects">
+                                <div class="recent-projects-content content-block-gray">
+                                    <div id="owl-example3" class="owl-carousel">
+                                        <div>
+                                            <img src="img/dialog.jpg" alt="">
+                                            <a href="#">Подробнее...</a>
+                                        </div>
+                                        <div>
+                                            <img src="img/kind_heart.jpg" alt="">
+                                            <a href="#">Подробнее...</a>
+                                        </div>
+                                        <div>
+                                            <img src="img/100id.jpg" alt="">
+                                            <a href="#">Подробнее...</a>
+                                        </div>
+                                        <div>
+                                            <img src="img/dialog.jpg" alt="">
+                                            <a href="#">Подробнее...</a>
+                                        </div>
+                                        <div>
+                                            <img src="img/kind_heart.jpg" alt="">
+                                            <a href="#">Подробнее...</a>
+                                        </div>
+                                        <div>
+                                            <img src="img/100id.jpg" alt="">
+                                            <a href="#">Подробнее...</a>
+                                        </div>
+                                        <div>
+                                            <img src="img/kind_heart.jpg" alt="">
+                                            <a href="#">Подробнее...</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- /.recent-projects -->
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 

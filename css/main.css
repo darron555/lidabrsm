@@ -371,6 +371,16 @@ footer {
 Responsive styles
 ========================================================================== */
 
+@media (max-width:1579px) {
+
+    .navbar-brand {
+        height: 110px;
+        padding: 15px 0 0 15px;
+    }
+
+
+}
+
 @media (max-width:768px) {
     .navbar-nav>li>a {
         padding-top:10px;
@@ -395,6 +405,12 @@ Responsive styles
     #social {
         padding-bottom: 70px;
     }
+
+    .navbar-brand {
+        height: 69px;
+        padding: 5px 15px !important;
+    }
+
 
 }
 .about{
@@ -425,4 +441,28 @@ Responsive styles
 }
 .about .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
     border: 2px solid #34C8B2!important;
+}
+
+.navbar-form{
+    margin-top: 20px!important;
+}
+.block-body{
+    margin: 60px 0 ;
+}
+.fa.fa-bars.fa-2x{
+    color: #34C8B2;
+}
+
+.panel-heading{
+    text-align: center;
+}
+
+.panel-heading a{
+    font-size: 25px;
+    color: #2e6633;
+}
+
+.proj{
+    background-color: #34C8B2;
+    padding: 50px;
 }

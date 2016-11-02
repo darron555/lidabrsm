@@ -1,24 +1,26 @@
-
-
-/* ========================================================================== 
+/* ==========================================================================
     General 
 ========================================================================== */
 
 @font-face {
-    src: url("../fonts/aassuannr.ttf");
-    font-family: aassuannr; /* Имя шрифта */
+    src: url("../fonts/afuturicabook.ttf");
+    font-family: acampus; /* Имя шрифта */
 }
 
-h1,h2,h3,h4,h5,h6,.navbar {
+
+h1,h2,h3,h4,h5,h6{
     /*font-family:'Oswald';*/
-    font-family: aassuannr, sans-serif;
+    font-family: acampus;
     /*font-weight:100;*/
     font-weight: 400;
 }
+.navbar{
+    font-size: 18px;
+}
 
-body {
+body{
     padding-top: 70px;
-    font-family:aassuannr ;
+
 }
  a:active, a:hover, a:focus{
     outline: none;
@@ -35,16 +37,16 @@ a {
 }
 
 a {
-    color: #2e6633;
+    color: #2e6633;font-family: acampus;
 }
 
 
 .btn-o {
     border:1px solid #34c8b2;
     /*border-radius*/
-    -webkit-border-radius:0px;
-    -moz-border-radius:0px;
-    border-radius:0px;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
     color:#34c8b2;
 }
 
@@ -253,7 +255,7 @@ Recent works
     padding: 40px 0px;
     text-align: center;
     font-size: 62px;
-    font-family: aassuannr, sans-serif;
+    font-family: acampus, sans-serif;
     word-spacing: 17px;
     letter-spacing: 4px;
     font-weight: 400;
@@ -423,11 +425,11 @@ Responsive styles
 }
 .about ul li a{
     background: white;
-    font-size: 19px;
+    font: 22px acampus;
 }
 .tab-content{
     margin: 20px 0 ;
-    font-size: 16px;
+    font: 18px acampus;
 }
 
 .about-row{
@@ -465,4 +467,19 @@ Responsive styles
 .proj{
     background-color: #34C8B2;
     padding: 50px;
+}
+.block-heading p{
+    font-size: 18px;
+}
+.navbar-nav > li > a{
+    font: 17px acampus;
+}
+.block-heading a{
+    font: 16px acampus!important;
+}
+.form-group,.btn,.block-body .date{
+    font: 14px acampus!important;
+}
+.blog-post p{
+    font: 16px acampus!important;
 }

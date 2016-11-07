@@ -325,11 +325,50 @@ blog
 .content-block-gray {
     background:#ECF0F1;
 }
-
+/*.content-block-work {*/
+    /*background:url("../img/workbg.jpg") ;*/
+/*}*/
+.bgwork{
+    background:url("../img/workbg.jpg") no-repeat;
+    height: 1700px;
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center;
+    padding: 0;margin: 0;
+}
 .block-heading {
     margin-bottom: 60px;
 }
+.content-block-work,.content-block-moop,.content-block-heart{
+    padding: 0;margin: 0;
+}
+.row .work-row{
+    background: rgba(236, 240, 241, 0.8) none repeat scroll 0 0;
+    border: 3px solid #34c8b2;
+    border-radius: 15px;
+    padding: 25px;
+}
+.row .work-row h1{
+    margin-bottom: 30px;
+}
 
+.bgmoop{
+    background:url("../img/moopbg2.jpg") no-repeat;
+    height: 1700px;
+    background-size:cover ;
+    padding: 0;margin: 0;
+    background-attachment:fixed;
+    background-position:center;
+}
+
+.bgheart{
+    background:url("../img/heartbg2.jpg") no-repeat;
+    height: 1700px;
+    background-size:cover ;
+    padding: 0;margin: 0;
+    background-attachment:fixed;
+    background-position:center;
+}
 
 /* ========================================================================== 
 Social
@@ -373,14 +412,17 @@ footer {
 Responsive styles
 ========================================================================== */
 
-@media (max-width:1579px) {
-
-    .navbar-brand {
-        height: 110px;
-        padding: 15px 0 0 15px;
+@media (max-width:1322px) {
+    .navbar-nav > li > a {
+        font: 12px acampus!important;
     }
+}
 
+@media (max-width:1115px) {
 
+    .navbar-form .navbar-right {
+
+    }
 }
 
 @media (max-width:768px) {
@@ -482,4 +524,19 @@ Responsive styles
 }
 .blog-post p{
     font: 16px acampus!important;
+}
+.table-work{
+    margin: 30px 0;
+}
+.union{
+    font: 16px acampus;
+}
+.union h1{
+    margin: 50px 0;
+}
+.unionfr{
+    margin: 25px 0;
+    padding: 30px 0;
+    border-radius: 15px;
+    border: 2px solid #34C8B2;
 }

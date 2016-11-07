@@ -29,7 +29,7 @@ $(document).ready(function() {
 	});
 
 
-  jQuery('.nav > li > a').click(function(e){
+  jQuery('.nav > li > .nota').click(function(e){
 		e.preventDefault();
 		jQuery.scrollTo(jQuery(this).attr('href'), 400, { offset:-(jQuery('#top').height()), axis:'y' });
 	});

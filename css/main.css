@@ -555,11 +555,13 @@ Responsive styles
     border-radius: 15px;
     padding: 15px; margin: 15px;
 }
+
 .contact-map{
     border: 5px solid #34C8B2;
     border-radius: 15px;
     padding: 15px; margin: 15px;
 }
+
 .address{
     padding: 10px;
     text-align: center;

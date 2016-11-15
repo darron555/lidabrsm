@@ -567,3 +567,18 @@ Responsive styles
     text-align: center;
     font-size: 18px;
 }
+.neeew{
+    text-align: center;
+    margin: 30px 0;
+}
+.neeew h1{
+    border-bottom: 3px solid #34C8B2;
+}
+.neeew .newstext{
+    margin: 30px 0;
+    padding: 20px;
+    border: 5px solid #34C8B2;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: acampus;
+}

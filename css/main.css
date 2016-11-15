@@ -241,7 +241,7 @@ content-block
 .content-block-cyan h1 {
     font-weight:100;
     text-transform:uppercase;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 
@@ -374,7 +374,7 @@ blog
 Social
 ========================================================================== */
 #social {
-    padding:110px 0;
+    padding:70px 0;
 }
 
 #social .hexagon {
@@ -394,7 +394,7 @@ Social
 footer
 ========================================================================== */
 footer.content-block {
-    padding: 60px 0 38px;
+    padding: 20px 0 20px;
     width: 100%;
 }
 
@@ -404,7 +404,11 @@ footer.content-block {
 
 footer {
     text-align:center;
-    color: rgb(153,160,162);
+    color: rgb(230, 224, 230);
+}
+footer a{
+    color: #00ac00;
+    font-weight: bold;
 }
 
 
@@ -581,4 +585,16 @@ Responsive styles
     border-radius: 20px;
     font-size: 20px;
     font-family: acampus;
+}
+.searched{
+    margin: 80px ;
+}
+.searched p{
+    margin: 20px ;
+}
+.searched p a{
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    padding: 15px;
 }
